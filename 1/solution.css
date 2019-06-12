@@ -1,0 +1,26 @@
+div {
+    box-sizing: border-box;
+    background: linear-gradient(178deg, #C8C8C8 0px , transparent 7px) #eeedef;
+    border-radius: 9px;
+}
+div::before {
+    width: 180px;
+    height: 90px;
+    box-sizing: border-box;
+    background-color:#f8e34b;
+    display: block;
+    content: "";
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+div::after {
+    width: 90px;
+    height: 90px;
+    box-sizing: border-box;
+    background-color:  #0c0c0c;
+    display: block;
+    content: "";
+    border-bottom-right-radius: 9px;
+    margin-left: 90px;
+
+}
